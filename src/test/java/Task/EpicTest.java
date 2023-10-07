@@ -10,7 +10,6 @@ class EpicTest {
 
     private final String[] subtasks = { "Молоко", "Яйца", "Хлеб" };
     private Epic epic;
-
     @BeforeEach
     public void init() {
         epic = new Epic(55, subtasks);
